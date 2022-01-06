@@ -267,3 +267,6 @@ function setTooltip() {
   console.log($('[data-toggle="tooltip"]'));
   $('[data-toggle="tooltip"]').tooltip();
 }
+
+
+// fianl
