@@ -159,10 +159,10 @@
 }
 
 .storyReel {
-  margin-left: -150px !important;
+  margin-left: -80px !important;
   padding: 10px 0;
   display: flex;
-  width: 800px !important;
+  width: 700px !important;
 }
 
 .main__body {
