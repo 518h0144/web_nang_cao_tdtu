@@ -97,8 +97,8 @@ class postController {
             model: "User",
           },
         })
-        .limit(5)
-        .skip(5 * Number(turn))
+        .limit(10)
+        .skip(10 * Number(turn))
         .sort({ createdAt: -1 })
         .exec();
     }
@@ -207,3 +207,4 @@ class postController {
 }
 
 module.exports = new postController();
+// final

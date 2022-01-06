@@ -9,7 +9,7 @@ const ListUser = require("../models/user");
 class HomeController {
   index = async (req, res, next) => {
     const listTypeInform = await TypeInform.find();
-    const listUser = await ListUser.find().limit(5);
+    const listUser = await ListUser.find({ role: "faculty" });
 
     res.render("index", {
       title: "Home",
@@ -50,3 +50,4 @@ class HomeController {
 }
 
 module.exports = new HomeController();
+// final
