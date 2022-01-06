@@ -11,7 +11,7 @@ git clone https://github.com/518h0144/web_nang_cao_tdtu.git
 ```
 npm install
 ```
-<br />5/ Run
+<br />3/ Run
 ```
 grunt
 ```
