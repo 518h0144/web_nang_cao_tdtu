@@ -9,7 +9,7 @@ const config = {
       name: "Tdtu",
     },
     port: process.env.PORT || 3000,
-    db: "mongodb+srv://chuong:123@chuong.u8lly.mongodb.net/final_web_nang_cao?retryWrites=true&w=majority",
+    db: "mongodb+srv://chuong:123@chuong.u8lly.mongodb.net/web_nang_cao?retryWrites=true&w=majority",
   },
 
   production: {
@@ -18,7 +18,7 @@ const config = {
       name: "Tdtu",
     },
     port: process.env.PORT || 3000,
-    db: "mongodb+srv://chuong:123@chuong.u8lly.mongodb.net/final_web_nang_cao?retryWrites=true&w=majority",
+    db: "mongodb+srv://chuong:123@chuong.u8lly.mongodb.net/web_nang_cao?retryWrites=true&w=majority",
   },
 };
 

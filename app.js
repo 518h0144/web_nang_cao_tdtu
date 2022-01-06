@@ -80,10 +80,10 @@ mySocket.inializeIO(server).on("connection", (socket) => {
 app.use(express.static(path.join(__dirname, "public")));
 // const User = require("./app/models/user");
 // const user = new User({
-//   username: "Khoa KT",
-//   name: "kt",
-//   password: "kt",
-//   role: "faculty",
+//   username: "admin",
+//   name: "admin",
+//   password: "admin",
+//   role: "admin",
 //   hookEnabled: true,
 // });
 // console.log(user);
