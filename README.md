@@ -1,4 +1,4 @@
-# School Web App - TDTU
+# Web advanced- TDTU
 @Authors:
 Thân Duy Tùng, Trần Phúc Chương, Phùng Quốc Đạt
 
